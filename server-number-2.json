@@ -1,0 +1,135 @@
+[
+    {
+        "id":1,
+        "serial":"7TKD8",
+        "nome":"Sensor 1",
+        "grupo":1,
+        "parametros":[
+            {
+                "db_field": "temperature",
+                "field_label":"Temperatura",
+                "tipo":"number",
+                "valor_referencia":20,
+                "condicao":[
+                    {
+                        "value":"!=",
+                        "caption":"Diferente de"
+                    },
+                    {
+                        "value":"==",
+                        "caption":"Igual a"
+                    },
+                    {
+                        "value":">",
+                        "caption":"Maior que"
+                    },
+                    {
+                        "value":"<",
+                        "caption":"Menor que"
+                    },
+                    {
+                        "value":">=",
+                        "caption":"Maior ou igual a"
+                    },
+                    {
+                        "value":"<=",
+                        "caption":"Menor ou igual a"
+                    },
+                    {
+                        "value":"between",
+                        "caption":"Entre"
+                    }
+                ]
+            },
+            {
+                "db_field": "status",
+                "field_label":"Status",
+                "tipo_dado":"text",
+                "valor_referencia":"ON",
+                "condicao":[
+                    {
+                        "value":"!=",
+                        "caption":"Diferente de"
+                    },
+                    {
+                        "value":"==",
+                        "caption":"Igual a"
+                    },
+                    {
+                        "value":"in",
+                        "caption":"Contém"
+                    },
+                    {
+                        "value":"not in",
+                        "caption":"Não contém"
+                    }
+                ]
+            },
+            {
+                "db_field": "alert",
+                "field_label":"Em alerta",
+                "tipo":"boolean",
+                "valor_referencia":"True",
+                "condicao":[
+                    {
+                        "value":"!=",
+                        "caption":"Diferente de"
+                    },
+                    {
+                        "value":"==",
+                        "caption":"Igual a"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "serial":"85342F",
+        "nome":"Sensor 2",
+        "grupo":1,
+        "parametros":[
+            {
+                "db_field": "status",
+                "field_label":"Status",
+                "tipo_dado":"text",
+                "valor_referencia":"ON",
+                "condicao":[
+                    {
+                        "value":"!=",
+                        "caption":"Diferente de"
+                    },
+                    {
+                        "value":"==",
+                        "caption":"Igual a"
+                    },
+                    {
+                        "value":"in",
+                        "caption":"Contém"
+                    },
+                    {
+                        "value":"not in",
+                        "caption":"Não contém"
+                    }
+                ]
+            },
+            {
+                "db_field": "alert",
+                "field_label":"Em alerta",
+                "tipo":"boolean",
+                "valor_referencia":"True",
+                "condicao":[
+                    {
+                        "value":"!=",
+                        "caption":"Diferente de"
+                    },
+                    {
+                        "value":"==",
+                        "caption":"Igual a"
+                    }
+                ]
+            }
+        ]
+    }
+
+]
