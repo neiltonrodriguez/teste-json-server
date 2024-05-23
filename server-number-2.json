@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "serial":"7TKD8",
+        "serial":"41:89:de:9c:62:53:sensor_disk",
         "nome":"Sensor 1",
         "grupo":1,
         "parametros":[
